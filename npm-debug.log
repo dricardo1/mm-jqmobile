@@ -1,0 +1,433 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   'C:\\Users\\dricardo1\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'browser-sync' ]
+2 info using npm@1.3.26
+3 info using node@v0.10.35
+4 verbose cache add [ 'browser-sync', null ]
+5 verbose cache add name=undefined spec="browser-sync" args=["browser-sync",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'browser-sync',
+6 verbose parsed url   path: 'browser-sync',
+6 verbose parsed url   href: 'browser-sync' }
+7 silly lockFile 6d7be3df-browser-sync browser-sync
+8 verbose lock browser-sync C:\Users\dricardo1\AppData\Roaming\npm-cache\6d7be3df-browser-sync.lock
+9 silly lockFile 6d7be3df-browser-sync browser-sync
+10 silly lockFile 6d7be3df-browser-sync browser-sync
+11 verbose addNamed [ 'browser-sync', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 6373e9ab-browser-sync browser-sync@
+14 verbose lock browser-sync@ C:\Users\dricardo1\AppData\Roaming\npm-cache\6373e9ab-browser-sync.lock
+15 silly addNameRange { name: 'browser-sync', range: '*', hasData: false }
+16 verbose url raw browser-sync
+17 verbose url resolving [ 'https://registry.npmjs.org/', './browser-sync' ]
+18 verbose url resolved https://registry.npmjs.org/browser-sync
+19 info trying registry request attempt 1 at 23:56:56
+20 http GET https://registry.npmjs.org/browser-sync
+21 http 200 https://registry.npmjs.org/browser-sync
+22 silly registry.get cb [ 200,
+22 silly registry.get   { date: 'Thu, 29 Jan 2015 04:56:57 GMT',
+22 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 silly registry.get     etag: '"9BS5U7K7I16JQU1FB4MM139P7"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'cache-control': 'max-age=60',
+22 silly registry.get     'content-length': '207302',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '0',
+22 silly registry.get     'x-served-by': 'cache-jfk1022-JFK',
+22 silly registry.get     'x-cache': 'HIT',
+22 silly registry.get     'x-cache-hits': '1',
+22 silly registry.get     'x-timer': 'S1422507417.004032,VS0,VE20',
+22 silly registry.get     vary: 'Accept',
+22 silly registry.get     'keep-alive': 'timeout=10, max=50',
+22 silly registry.get     connection: 'Keep-Alive' } ]
+23 silly addNameRange number 2 { name: 'browser-sync', range: '*', hasData: true }
+24 silly addNameRange versions [ 'browser-sync',
+24 silly addNameRange   [ '0.1.0',
+24 silly addNameRange     '0.1.1',
+24 silly addNameRange     '0.1.3',
+24 silly addNameRange     '0.1.5',
+24 silly addNameRange     '0.1.6',
+24 silly addNameRange     '0.1.7',
+24 silly addNameRange     '0.1.8',
+24 silly addNameRange     '0.1.9',
+24 silly addNameRange     '0.1.10',
+24 silly addNameRange     '0.2.0',
+24 silly addNameRange     '0.2.1',
+24 silly addNameRange     '0.3.0',
+24 silly addNameRange     '0.3.1',
+24 silly addNameRange     '0.3.2',
+24 silly addNameRange     '0.3.3',
+24 silly addNameRange     '0.3.4',
+24 silly addNameRange     '0.3.5',
+24 silly addNameRange     '0.3.6',
+24 silly addNameRange     '0.3.7',
+24 silly addNameRange     '0.3.8',
+24 silly addNameRange     '0.3.10',
+24 silly addNameRange     '0.4.0',
+24 silly addNameRange     '0.4.1',
+24 silly addNameRange     '0.4.2',
+24 silly addNameRange     '0.4.21',
+24 silly addNameRange     '0.4.3',
+24 silly addNameRange     '0.4.4',
+24 silly addNameRange     '0.4.5',
+24 silly addNameRange     '0.4.6',
+24 silly addNameRange     '0.4.7',
+24 silly addNameRange     '0.4.8',
+24 silly addNameRange     '0.4.9',
+24 silly addNameRange     '0.4.10',
+24 silly addNameRange     '0.4.11',
+24 silly addNameRange     '0.4.12',
+24 silly addNameRange     '0.5.0',
+24 silly addNameRange     '0.5.1',
+24 silly addNameRange     '0.5.2',
+24 silly addNameRange     '0.5.3',
+24 silly addNameRange     '0.5.4',
+24 silly addNameRange     '0.5.5',
+24 silly addNameRange     '0.5.6',
+24 silly addNameRange     '0.5.7',
+24 silly addNameRange     '0.5.8',
+24 silly addNameRange     '0.5.9',
+24 silly addNameRange     '0.6.0',
+24 silly addNameRange     '0.6.1',
+24 silly addNameRange     '0.6.2',
+24 silly addNameRange     '0.7.0',
+24 silly addNameRange     '0.7.1',
+24 silly addNameRange     '0.7.2',
+24 silly addNameRange     '0.7.3',
+24 silly addNameRange     '0.7.4',
+24 silly addNameRange     '0.7.5',
+24 silly addNameRange     '0.7.7',
+24 silly addNameRange     '0.8.0',
+24 silly addNameRange     '0.8.1',
+24 silly addNameRange     '0.8.2',
+24 silly addNameRange     '0.9.0',
+24 silly addNameRange     '0.9.1',
+24 silly addNameRange     '1.0.0',
+24 silly addNameRange     '1.1.0',
+24 silly addNameRange     '1.1.1',
+24 silly addNameRange     '1.1.2',
+24 silly addNameRange     '1.2.0',
+24 silly addNameRange     '1.2.1',
+24 silly addNameRange     '1.3.0',
+24 silly addNameRange     '1.3.2',
+24 silly addNameRange     '1.3.3',
+24 silly addNameRange     '1.3.4',
+24 silly addNameRange     '1.3.5',
+24 silly addNameRange     '1.3.6',
+24 silly addNameRange     '1.3.7',
+24 silly addNameRange     '1.5.0',
+24 silly addNameRange     '1.5.1',
+24 silly addNameRange     '1.5.2',
+24 silly addNameRange     '1.5.3',
+24 silly addNameRange     '1.5.4',
+24 silly addNameRange     '1.5.5',
+24 silly addNameRange     '1.5.6',
+24 silly addNameRange     '1.5.7',
+24 silly addNameRange     '1.5.8',
+24 silly addNameRange     '1.5.9',
+24 silly addNameRange     '1.6.0',
+24 silly addNameRange     '1.6.1',
+24 silly addNameRange     '1.6.2',
+24 silly addNameRange     '1.6.3',
+24 silly addNameRange     '1.6.4',
+24 silly addNameRange     '1.6.5',
+24 silly addNameRange     '1.7.0',
+24 silly addNameRange     '1.7.1',
+24 silly addNameRange     '1.7.2',
+24 silly addNameRange     '1.7.3',
+24 silly addNameRange     '1.8.0',
+24 silly addNameRange     '1.8.1',
+24 silly addNameRange     '1.8.2',
+24 silly addNameRange     '1.8.3',
+24 silly addNameRange     '1.9.0',
+24 silly addNameRange     '1.9.1' ] ]
+25 verbose addNamed [ 'browser-sync', '1.9.1' ]
+26 verbose addNamed [ '1.9.1', '1.9.1' ]
+27 silly lockFile c7405be5-browser-sync-1-9-1 browser-sync@1.9.1
+28 verbose lock browser-sync@1.9.1 C:\Users\dricardo1\AppData\Roaming\npm-cache\c7405be5-browser-sync-1-9-1.lock
+29 silly lockFile 8e1ae474-wser-sync-browser-sync-1-9-1-tgz https://registry.npmjs.org/browser-sync/-/browser-sync-1.9.1.tgz
+30 verbose lock https://registry.npmjs.org/browser-sync/-/browser-sync-1.9.1.tgz C:\Users\dricardo1\AppData\Roaming\npm-cache\8e1ae474-wser-sync-browser-sync-1-9-1-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/browser-sync/-/browser-sync-1.9.1.tgz',
+31 verbose addRemoteTarball   '755f5bd7a0de0b90ad78e528789ff80fef2e8462' ]
+32 info retry fetch attempt 1 at 23:56:59
+33 verbose fetch to= C:\Users\DRICAR~1\AppData\Local\Temp\npm-7568-yjzLVhyj\1422507419076-0.916789646493271\tmp.tgz
+34 http GET https://registry.npmjs.org/browser-sync/-/browser-sync-1.9.1.tgz
+35 http 200 https://registry.npmjs.org/browser-sync/-/browser-sync-1.9.1.tgz
+36 verbose tar unpack C:\Users\DRICAR~1\AppData\Local\Temp\npm-7568-yjzLVhyj\1422507419076-0.916789646493271\tmp.tgz
+37 silly lockFile 2e467c0f-419076-0-916789646493271-package tar://C:\Users\DRICAR~1\AppData\Local\Temp\npm-7568-yjzLVhyj\1422507419076-0.916789646493271\package
+38 verbose lock tar://C:\Users\DRICAR~1\AppData\Local\Temp\npm-7568-yjzLVhyj\1422507419076-0.916789646493271\package C:\Users\dricardo1\AppData\Roaming\npm-cache\2e467c0f-419076-0-916789646493271-package.lock
+39 silly lockFile e1408545-419076-0-916789646493271-tmp-tgz tar://C:\Users\DRICAR~1\AppData\Local\Temp\npm-7568-yjzLVhyj\1422507419076-0.916789646493271\tmp.tgz
+40 verbose lock tar://C:\Users\DRICAR~1\AppData\Local\Temp\npm-7568-yjzLVhyj\1422507419076-0.916789646493271\tmp.tgz C:\Users\dricardo1\AppData\Roaming\npm-cache\e1408545-419076-0-916789646493271-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry README.md
+44 silly gunzTarPerm extractEntry LICENSE
+45 silly gunzTarPerm extractEntry index.js
+46 silly gunzTarPerm extractEntry bin/browser-sync
+47 silly gunzTarPerm extractEntry lib/args.js
+48 silly gunzTarPerm extractEntry lib/config.js
+49 silly gunzTarPerm extractEntry lib/default-config.js
+50 silly gunzTarPerm extractEntry lib/file-watcher.js
+51 silly gunzTarPerm extractEntry lib/tunnel.js
+52 silly gunzTarPerm extractEntry lib/logger.js
+53 silly gunzTarPerm extractEntry lib/browser-sync.js
+54 silly gunzTarPerm extractEntry lib/sockets.js
+55 silly gunzTarPerm extractEntry lib/snippet.js
+56 silly gunzTarPerm extractEntry lib/services.js
+57 silly gunzTarPerm extractEntry lib/hooks.js
+58 silly gunzTarPerm extractEntry lib/utils.js
+59 silly gunzTarPerm extractEntry lib/messages.js
+60 silly gunzTarPerm extractEntry lib/server/index.js
+61 silly gunzTarPerm extractEntry lib/server/utils.js
+62 silly gunzTarPerm extractEntry lib/server/certs/server.crt
+63 silly gunzTarPerm extractEntry lib/server/certs/server.key
+64 silly gunzTarPerm extractEntry lib/public/exit.js
+65 silly gunzTarPerm extractEntry lib/public/init.js
+66 silly gunzTarPerm extractEntry lib/public/notify.js
+67 silly gunzTarPerm extractEntry lib/public/pause.js
+68 silly gunzTarPerm extractEntry lib/public/reload.js
+69 silly gunzTarPerm extractEntry lib/public/resume.js
+70 silly gunzTarPerm extractEntry lib/public/socket.io.js
+71 silly gunzTarPerm extractEntry lib/templates/connector.tmpl
+72 silly gunzTarPerm extractEntry lib/templates/script-tags.tmpl
+73 silly gunzTarPerm extractEntry lib/cli/cli-info.js
+74 silly gunzTarPerm extractEntry lib/cli/cli-init.js
+75 silly gunzTarPerm extractEntry lib/cli/cli-options.js
+76 silly gunzTarPerm extractEntry lib/cli/cli-template.js
+77 silly gunzTarPerm extractEntry lib/cli/index.js
+78 silly gunzTarPerm extractEntry lib/cli/opts.json
+79 silly lockFile 2e467c0f-419076-0-916789646493271-package tar://C:\Users\DRICAR~1\AppData\Local\Temp\npm-7568-yjzLVhyj\1422507419076-0.916789646493271\package
+80 silly lockFile 2e467c0f-419076-0-916789646493271-package tar://C:\Users\DRICAR~1\AppData\Local\Temp\npm-7568-yjzLVhyj\1422507419076-0.916789646493271\package
+81 silly lockFile e1408545-419076-0-916789646493271-tmp-tgz tar://C:\Users\DRICAR~1\AppData\Local\Temp\npm-7568-yjzLVhyj\1422507419076-0.916789646493271\tmp.tgz
+82 silly lockFile e1408545-419076-0-916789646493271-tmp-tgz tar://C:\Users\DRICAR~1\AppData\Local\Temp\npm-7568-yjzLVhyj\1422507419076-0.916789646493271\tmp.tgz
+83 verbose tar pack [ 'C:\\Users\\dricardo1\\AppData\\Roaming\\npm-cache\\browser-sync\\1.9.1\\package.tgz',
+83 verbose tar pack   'C:\\Users\\DRICAR~1\\AppData\\Local\\Temp\\npm-7568-yjzLVhyj\\1422507419076-0.916789646493271\\package' ]
+84 verbose tarball C:\Users\dricardo1\AppData\Roaming\npm-cache\browser-sync\1.9.1\package.tgz
+85 verbose folder C:\Users\DRICAR~1\AppData\Local\Temp\npm-7568-yjzLVhyj\1422507419076-0.916789646493271\package
+86 silly lockFile 2e467c0f-419076-0-916789646493271-package tar://C:\Users\DRICAR~1\AppData\Local\Temp\npm-7568-yjzLVhyj\1422507419076-0.916789646493271\package
+87 verbose lock tar://C:\Users\DRICAR~1\AppData\Local\Temp\npm-7568-yjzLVhyj\1422507419076-0.916789646493271\package C:\Users\dricardo1\AppData\Roaming\npm-cache\2e467c0f-419076-0-916789646493271-package.lock
+88 silly lockFile 438474ed-e-browser-sync-1-9-1-package-tgz tar://C:\Users\dricardo1\AppData\Roaming\npm-cache\browser-sync\1.9.1\package.tgz
+89 verbose lock tar://C:\Users\dricardo1\AppData\Roaming\npm-cache\browser-sync\1.9.1\package.tgz C:\Users\dricardo1\AppData\Roaming\npm-cache\438474ed-e-browser-sync-1-9-1-package-tgz.lock
+90 silly lockFile 2e467c0f-419076-0-916789646493271-package tar://C:\Users\DRICAR~1\AppData\Local\Temp\npm-7568-yjzLVhyj\1422507419076-0.916789646493271\package
+91 silly lockFile 2e467c0f-419076-0-916789646493271-package tar://C:\Users\DRICAR~1\AppData\Local\Temp\npm-7568-yjzLVhyj\1422507419076-0.916789646493271\package
+92 silly lockFile 438474ed-e-browser-sync-1-9-1-package-tgz tar://C:\Users\dricardo1\AppData\Roaming\npm-cache\browser-sync\1.9.1\package.tgz
+93 silly lockFile 438474ed-e-browser-sync-1-9-1-package-tgz tar://C:\Users\dricardo1\AppData\Roaming\npm-cache\browser-sync\1.9.1\package.tgz
+94 silly lockFile a688c88b-cache-browser-sync-1-9-1-package C:\Users\dricardo1\AppData\Roaming\npm-cache\browser-sync\1.9.1\package
+95 verbose lock C:\Users\dricardo1\AppData\Roaming\npm-cache\browser-sync\1.9.1\package C:\Users\dricardo1\AppData\Roaming\npm-cache\a688c88b-cache-browser-sync-1-9-1-package.lock
+96 silly lockFile a688c88b-cache-browser-sync-1-9-1-package C:\Users\dricardo1\AppData\Roaming\npm-cache\browser-sync\1.9.1\package
+97 silly lockFile a688c88b-cache-browser-sync-1-9-1-package C:\Users\dricardo1\AppData\Roaming\npm-cache\browser-sync\1.9.1\package
+98 verbose tar unpack C:\Users\dricardo1\AppData\Roaming\npm-cache\browser-sync\1.9.1\package.tgz
+99 silly lockFile 2305e6b0-cache-browser-sync-1-9-1-package tar://C:\Users\dricardo1\AppData\Roaming\npm-cache\browser-sync\1.9.1\package
+100 verbose lock tar://C:\Users\dricardo1\AppData\Roaming\npm-cache\browser-sync\1.9.1\package C:\Users\dricardo1\AppData\Roaming\npm-cache\2305e6b0-cache-browser-sync-1-9-1-package.lock
+101 silly lockFile 438474ed-e-browser-sync-1-9-1-package-tgz tar://C:\Users\dricardo1\AppData\Roaming\npm-cache\browser-sync\1.9.1\package.tgz
+102 verbose lock tar://C:\Users\dricardo1\AppData\Roaming\npm-cache\browser-sync\1.9.1\package.tgz C:\Users\dricardo1\AppData\Roaming\npm-cache\438474ed-e-browser-sync-1-9-1-package-tgz.lock
+103 silly gunzTarPerm modes [ '755', '644' ]
+104 silly gunzTarPerm extractEntry package.json
+105 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+106 silly gunzTarPerm extractEntry README.md
+107 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+108 silly gunzTarPerm extractEntry LICENSE
+109 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+110 silly gunzTarPerm extractEntry index.js
+111 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+112 silly gunzTarPerm extractEntry bin/browser-sync
+113 silly gunzTarPerm modified mode [ 'bin/browser-sync', 438, 420 ]
+114 silly gunzTarPerm extractEntry lib/args.js
+115 silly gunzTarPerm modified mode [ 'lib/args.js', 438, 420 ]
+116 silly gunzTarPerm extractEntry lib/config.js
+117 silly gunzTarPerm modified mode [ 'lib/config.js', 438, 420 ]
+118 silly gunzTarPerm extractEntry lib/default-config.js
+119 silly gunzTarPerm modified mode [ 'lib/default-config.js', 438, 420 ]
+120 silly gunzTarPerm extractEntry lib/file-watcher.js
+121 silly gunzTarPerm modified mode [ 'lib/file-watcher.js', 438, 420 ]
+122 silly gunzTarPerm extractEntry lib/tunnel.js
+123 silly gunzTarPerm modified mode [ 'lib/tunnel.js', 438, 420 ]
+124 silly gunzTarPerm extractEntry lib/logger.js
+125 silly gunzTarPerm modified mode [ 'lib/logger.js', 438, 420 ]
+126 silly gunzTarPerm extractEntry lib/browser-sync.js
+127 silly gunzTarPerm modified mode [ 'lib/browser-sync.js', 438, 420 ]
+128 silly gunzTarPerm extractEntry lib/sockets.js
+129 silly gunzTarPerm modified mode [ 'lib/sockets.js', 438, 420 ]
+130 silly gunzTarPerm extractEntry lib/snippet.js
+131 silly gunzTarPerm modified mode [ 'lib/snippet.js', 438, 420 ]
+132 silly gunzTarPerm extractEntry lib/services.js
+133 silly gunzTarPerm modified mode [ 'lib/services.js', 438, 420 ]
+134 silly gunzTarPerm extractEntry lib/hooks.js
+135 silly gunzTarPerm modified mode [ 'lib/hooks.js', 438, 420 ]
+136 silly gunzTarPerm extractEntry lib/utils.js
+137 silly gunzTarPerm modified mode [ 'lib/utils.js', 438, 420 ]
+138 silly gunzTarPerm extractEntry lib/messages.js
+139 silly gunzTarPerm modified mode [ 'lib/messages.js', 438, 420 ]
+140 silly gunzTarPerm extractEntry lib/server/index.js
+141 silly gunzTarPerm modified mode [ 'lib/server/index.js', 438, 420 ]
+142 silly gunzTarPerm extractEntry lib/server/utils.js
+143 silly gunzTarPerm modified mode [ 'lib/server/utils.js', 438, 420 ]
+144 silly gunzTarPerm extractEntry lib/server/certs/server.crt
+145 silly gunzTarPerm modified mode [ 'lib/server/certs/server.crt', 438, 420 ]
+146 silly gunzTarPerm extractEntry lib/server/certs/server.key
+147 silly gunzTarPerm modified mode [ 'lib/server/certs/server.key', 438, 420 ]
+148 silly gunzTarPerm extractEntry lib/public/exit.js
+149 silly gunzTarPerm modified mode [ 'lib/public/exit.js', 438, 420 ]
+150 silly gunzTarPerm extractEntry lib/public/init.js
+151 silly gunzTarPerm modified mode [ 'lib/public/init.js', 438, 420 ]
+152 silly gunzTarPerm extractEntry lib/public/notify.js
+153 silly gunzTarPerm modified mode [ 'lib/public/notify.js', 438, 420 ]
+154 silly gunzTarPerm extractEntry lib/public/pause.js
+155 silly gunzTarPerm modified mode [ 'lib/public/pause.js', 438, 420 ]
+156 silly gunzTarPerm extractEntry lib/public/reload.js
+157 silly gunzTarPerm modified mode [ 'lib/public/reload.js', 438, 420 ]
+158 silly gunzTarPerm extractEntry lib/public/resume.js
+159 silly gunzTarPerm modified mode [ 'lib/public/resume.js', 438, 420 ]
+160 silly gunzTarPerm extractEntry lib/public/socket.io.js
+161 silly gunzTarPerm modified mode [ 'lib/public/socket.io.js', 438, 420 ]
+162 silly gunzTarPerm extractEntry lib/templates/connector.tmpl
+163 silly gunzTarPerm modified mode [ 'lib/templates/connector.tmpl', 438, 420 ]
+164 silly gunzTarPerm extractEntry lib/templates/script-tags.tmpl
+165 silly gunzTarPerm modified mode [ 'lib/templates/script-tags.tmpl', 438, 420 ]
+166 silly gunzTarPerm extractEntry lib/cli/cli-info.js
+167 silly gunzTarPerm modified mode [ 'lib/cli/cli-info.js', 438, 420 ]
+168 silly gunzTarPerm extractEntry lib/cli/cli-init.js
+169 silly gunzTarPerm modified mode [ 'lib/cli/cli-init.js', 438, 420 ]
+170 silly gunzTarPerm extractEntry lib/cli/cli-options.js
+171 silly gunzTarPerm modified mode [ 'lib/cli/cli-options.js', 438, 420 ]
+172 silly gunzTarPerm extractEntry lib/cli/cli-template.js
+173 silly gunzTarPerm modified mode [ 'lib/cli/cli-template.js', 438, 420 ]
+174 silly gunzTarPerm extractEntry lib/cli/index.js
+175 silly gunzTarPerm modified mode [ 'lib/cli/index.js', 438, 420 ]
+176 silly gunzTarPerm extractEntry lib/cli/opts.json
+177 silly gunzTarPerm modified mode [ 'lib/cli/opts.json', 438, 420 ]
+178 silly lockFile 2305e6b0-cache-browser-sync-1-9-1-package tar://C:\Users\dricardo1\AppData\Roaming\npm-cache\browser-sync\1.9.1\package
+179 silly lockFile 2305e6b0-cache-browser-sync-1-9-1-package tar://C:\Users\dricardo1\AppData\Roaming\npm-cache\browser-sync\1.9.1\package
+180 silly lockFile 438474ed-e-browser-sync-1-9-1-package-tgz tar://C:\Users\dricardo1\AppData\Roaming\npm-cache\browser-sync\1.9.1\package.tgz
+181 silly lockFile 438474ed-e-browser-sync-1-9-1-package-tgz tar://C:\Users\dricardo1\AppData\Roaming\npm-cache\browser-sync\1.9.1\package.tgz
+182 verbose chmod C:\Users\dricardo1\AppData\Roaming\npm-cache\browser-sync\1.9.1\package.tgz 644
+183 silly chown skipping for windows C:\Users\dricardo1\AppData\Roaming\npm-cache\browser-sync\1.9.1\package.tgz
+184 silly lockFile 8e1ae474-wser-sync-browser-sync-1-9-1-tgz https://registry.npmjs.org/browser-sync/-/browser-sync-1.9.1.tgz
+185 silly lockFile 8e1ae474-wser-sync-browser-sync-1-9-1-tgz https://registry.npmjs.org/browser-sync/-/browser-sync-1.9.1.tgz
+186 silly lockFile c7405be5-browser-sync-1-9-1 browser-sync@1.9.1
+187 silly lockFile c7405be5-browser-sync-1-9-1 browser-sync@1.9.1
+188 silly lockFile 6373e9ab-browser-sync browser-sync@
+189 silly lockFile 6373e9ab-browser-sync browser-sync@
+190 silly resolved [ { name: 'browser-sync',
+190 silly resolved     description: 'Live CSS Reload & Browser Syncing',
+190 silly resolved     version: '1.9.1',
+190 silly resolved     homepage: 'http://www.browsersync.io/',
+190 silly resolved     author: { name: 'Shane Osbourne' },
+190 silly resolved     repository: { type: 'git', url: 'git://github.com/shakyshane/browser-sync' },
+190 silly resolved     licenses: [ [Object] ],
+190 silly resolved     bin: { 'browser-sync': 'bin/browser-sync' },
+190 silly resolved     files: [ 'bin', 'index.js', 'lib', 'LICENSE' ],
+190 silly resolved     engines: { node: '>= 0.8.0' },
+190 silly resolved     scripts:
+190 silly resolved      { test: 'npm run lint && node ./test/env.js && npm run unit',
+190 silly resolved        lint: 'gulp lint',
+190 silly resolved        pro: 'node test/protractor/setup.single.js',
+190 silly resolved        'pro-local': 'node test/protractor/setup.js',
+190 silly resolved        unit: 'mocha --recursive test/specs --timeout 10000',
+190 silly resolved        cover: 'node ./test/env.js && istanbul cover _mocha --report lcovonly -- --timeout 10000 --recursive ./test/specs && istanbul-coveralls',
+190 silly resolved        _cover: 'istanbul cover _mocha --report lcovonly -- --timeout 10000 --recursive ./test/specs && istanbul-coveralls',
+190 silly resolved        'pre-release': 'npm test && npm run pro-local && npm run pro' },
+190 silly resolved     dependencies:
+190 silly resolved      { 'browser-sync-client': '^1.0.0',
+190 silly resolved        commander: '^2.3.0',
+190 silly resolved        connect: '^3.3.3',
+190 silly resolved        'dev-ip': '^0.1.7',
+190 silly resolved        'easy-extender': '^2.0.0',
+190 silly resolved        'eazy-logger': '^2.0.0',
+190 silly resolved        'emitter-steward': '^0.0.1',
+190 silly resolved        foxy: '^7.0.2',
+190 silly resolved        'glob-watcher': '^0.0.7',
+190 silly resolved        localtunnel: '^1.3.0',
+190 silly resolved        lodash: '^2.4.1',
+190 silly resolved        minimist: '^1.1.0',
+190 silly resolved        'object-path': '^0.8.0',
+190 silly resolved        opn: '^1.0.0',
+190 silly resolved        'opt-merger': '^1.1.0',
+190 silly resolved        'portscanner-plus': '^0.2.0',
+190 silly resolved        'resp-modifier': '^1.0.0',
+190 silly resolved        'serve-index': '^1.5.1',
+190 silly resolved        'serve-static': '^1.4.2',
+190 silly resolved        'socket.io': '^1.2.1',
+190 silly resolved        tfunk: '^3.0.0',
+190 silly resolved        'ua-parser-js': '^0.7.3' },
+190 silly resolved     devDependencies:
+190 silly resolved      { 'async-each-series': '^0.1.1',
+190 silly resolved        chai: '^1.10.0',
+190 silly resolved        chalk: '^0.5.1',
+190 silly resolved        'cli-color': '^0.3.2',
+190 silly resolved        'conventional-changelog': '^0.0.11',
+190 silly resolved        'graceful-fs': '^3.0.2',
+190 silly resolved        gulp: '^3.8.10',
+190 silly resolved        'gulp-contribs': '^0.0.2',
+190 silly resolved        'gulp-filter': '^1.0.0',
+190 silly resolved        'gulp-jscs': '^1.3.1',
+190 silly resolved        'gulp-jshint': '^1.9.0',
+190 silly resolved        'gulp-ruby-sass': '^0.7.1',
+190 silly resolved        'gulp-yuidoc': '^0.1.2',
+190 silly resolved        istanbul: '^0.3.2',
+190 silly resolved        'istanbul-coveralls': '^1.0.0',
+190 silly resolved        mocha: '*',
+190 silly resolved        q: '^1.1.2',
+190 silly resolved        sinon: '^1.12.1',
+190 silly resolved        slugify: '^0.1.0',
+190 silly resolved        'socket.io-client': '^1.2.1',
+190 silly resolved        supertest: '^0.15.0',
+190 silly resolved        vinyl: '^0.4.5' },
+190 silly resolved     keywords: [ 'browser sync', 'css', 'live reload', 'sync' ],
+190 silly resolved     readme: '# BrowserSync [![Build status](https://ci.appveyor.com/api/projects/status/r5vung2ipn9uj4sy?svg=true)](https://ci.appveyor.com/project/shakyShane/browser-sync) [![Build Status](http://img.shields.io/travis/shakyShane/browser-sync/master.svg?style=flat)](https://travis-ci.org/shakyShane/browser-sync) [![Coverage Status](https://img.shields.io/coveralls/shakyShane/browser-sync.svg?style=flat)](https://coveralls.io/r/shakyShane/browser-sync?branch=master) [![NPM version](https://img.shields.io/npm/v/browser-sync.svg?style=flat)](https://www.npmjs.com/package/browser-sync)\n\n> Keep multiple browsers & devices in sync when building websites.\n\n<a href="http://www.wearejh.com"><img src="http://cl.ly/image/3Y3O0M2z310j/jh-100-red.png" /></a>\n\nBrowserSync is developed and maintained internally at <a href="http://www.wearejh.com">JH</a>, follow <a href="http://www.twitter.com/browsersync">@BrowserSync</a> on twitter for news & updates.\n\n##Features\n1. **Scroll** - I can keep your pages in sync when scrolling.\n2. **Forms** - You fill out a form in one browser, I\'ll copy the data to all the others.\n3. **Links** - I\'ll watch your clicks and make all the other browsers follow you.\n4. **CSS injecting** - I can even watch your CSS files & inject them when they change.\n5. **Live Reload** - I can also watch files like HTML and PHP & when they change I can reload all browsers for you.\n6. **Built-in Server** - Yep, I can serve static files too if you need me to (uses Connect).\n7. **Use with any back-end setup** - I even have a proxy option so that I can be used with existing PHP, Rails, Python, Node or ASP.net setup.\n8. **Public URL** - View your website via a URL that any internet connected device can access & maintain all BrowserSync features.\n9. **Browser Stack support** - Use the all of my features when viewing your site through Browser Stack.\n\n\n##When is it useful?\nIt\'s pretty useful when used with a single browser, watching a CSS file for changes & injecting it. But the real power comes when you\'re building responsive sites and using multiple devices/monitors because it can keep all browsers in sync & make your workflow much faster.\n\n##Requirements\nBrowserSync works by injecting an asynchronous script tag (`<script async>...</script>`) right after the `<body>` tag \nduring initial request. In order for this to work properly the `<body>` tag must be present. Alternatively you \ncan provide a custom rule for the snippet using [snippetOptions](http://www.browsersync.io/docs/options/#option-snippetOptions)\n\n##Install\n```\nnpm install -g browser-sync\n```\n##How to use it\n\n1. [Command line](http://www.browsersync.io/docs/command-line/)\n2. [API](http://www.browsersync.io/docs/api/)\n\n## Using Grunt?\nThere\'s a [separate plugin](https://github.com/shakyShane/grunt-browser-sync) for that\n\n## Using Gulp?\nNo problem, here\'s a [setup guide](http://www.browsersync.io/docs/gulp)\n\n## Using Brunch?\nEnjoy the [browser-sync-brunch plugin](https://github.com/ocombe/browser-sync-brunch)\n\n## Screencasts\n[Some listed here](https://github.com/shakyShane/browser-sync/wiki/Screencasts)\nWant any more? Something specific? ask me nicely [@shaneOsbourne](http://www.twitter.com/shaneOsbourne)\n\n##Support\nIf you\'ve found Browser-sync useful and would like to contribute to its continued development & support, please feel free to send a donation of any size - it would be greatly appreciated!\n\n[![Support via Gittip](https://rawgithub.com/chris---/Donation-Badges/master/gittip.jpeg)](https://www.gittip.com/shakyshane)\n[![Support via PayPal](https://rawgithub.com/chris---/Donation-Badges/master/paypal.jpeg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=shakyshane%40gmail%2ecom&lc=US&item_name=browser%2dsync)\n\n## Contributors\n\n```\n   792\tShane Osbourne\n    33\tShinnosuke Watanabe\n    19\tShane Daniel\n    13\tHugo Bessa\n    11\tPaul Kinlan\n     8\tshinnn\n     4\tMatt Green\n     3\tAdam Lynch\n     3\tMarek \'saji\' Augustynowicz\n     3\tWerner van Deventer\n     2\tDan Tello\n     2\tMichael Branch\n     2\tOlivier Combe\n     2\tHugo Dias\n     2\tbrutaldev\n     2\tchase_chou\n     2\tPaul Robertson\n     2\tEugeny Vlasenko\n     2\tPiotr Kaleta\n     1\tSylvain Emery\n     1\tTony Holdstock-Brown\n     1\tVictor Fernandez de Alba\n     1\tviktor hesselbom\n     1\tYazhong Liu\n     1\tmericson\n     1\tDave Hall\n     1\tGuillaume Lambert\n     1\tJory Graham\n     1\tBenjamín Eidelman\n     1\tCraig Morris\n     1\tPeter Blazejewicz\n     1\tRobert Vock\n     1\tCedric Kastner\n     1\tCarl Henderson\n     1\tCameron Spear\n```\n\n## License\nApache 2\nCopyright (c) 2014 Shane Osbourne\n',
+190 silly resolved     readmeFilename: 'README.md',
+190 silly resolved     bugs: { url: 'https://github.com/shakyshane/browser-sync/issues' },
+190 silly resolved     _id: 'browser-sync@1.9.1',
+190 silly resolved     dist: { shasum: 'e559920f38f9ff3512d30709e4abf3418d670475' },
+190 silly resolved     _from: 'browser-sync@',
+190 silly resolved     _resolved: 'https://registry.npmjs.org/browser-sync/-/browser-sync-1.9.1.tgz' } ]
+191 info install browser-sync@1.9.1 into C:\Program Files\nodejs
+192 info installOne browser-sync@1.9.1
+193 info C:\Program Files\nodejs\node_modules\browser-sync unbuild
+194 verbose tar unpack C:\Users\dricardo1\AppData\Roaming\npm-cache\browser-sync\1.9.1\package.tgz
+195 silly lockFile 6efb58de-nodejs-node-modules-browser-sync tar://C:\Program Files\nodejs\node_modules\browser-sync
+196 verbose lock tar://C:\Program Files\nodejs\node_modules\browser-sync C:\Users\dricardo1\AppData\Roaming\npm-cache\6efb58de-nodejs-node-modules-browser-sync.lock
+197 silly lockFile 438474ed-e-browser-sync-1-9-1-package-tgz tar://C:\Users\dricardo1\AppData\Roaming\npm-cache\browser-sync\1.9.1\package.tgz
+198 verbose lock tar://C:\Users\dricardo1\AppData\Roaming\npm-cache\browser-sync\1.9.1\package.tgz C:\Users\dricardo1\AppData\Roaming\npm-cache\438474ed-e-browser-sync-1-9-1-package-tgz.lock
+199 silly gunzTarPerm modes [ '755', '644' ]
+200 error Error: EPERM, mkdir 'C:\Program Files\nodejs\node_modules\browser-sync'
+200 error  { [Error: EPERM, mkdir 'C:\Program Files\nodejs\node_modules\browser-sync']
+200 error   errno: 50,
+200 error   code: 'EPERM',
+200 error   path: 'C:\\Program Files\\nodejs\\node_modules\\browser-sync',
+200 error   fstream_type: 'Directory',
+200 error   fstream_path: 'C:\\Program Files\\nodejs\\node_modules\\browser-sync',
+200 error   fstream_class: 'DirWriter',
+200 error   fstream_stack:
+200 error    [ 'C:\\Users\\dricardo1\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\fstream\\lib\\dir-writer.js:36:23',
+200 error      'C:\\Users\\dricardo1\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\mkdirp\\index.js:37:53',
+200 error      'Object.oncomplete (fs.js:108:15)' ] }
+201 error Please try running this command again as root/Administrator.
+202 error System Windows_NT 6.2.9200
+203 error command "node" "C:\\Users\\dricardo1\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "browser-sync"
+204 error cwd C:\Users\dricardo1\Documents\GitHub\mm-jqmobile
+205 error node -v v0.10.35
+206 error npm -v 1.3.26
+207 error path C:\Program Files\nodejs\node_modules\browser-sync
+208 error fstream_path C:\Program Files\nodejs\node_modules\browser-sync
+209 error fstream_type Directory
+210 error fstream_class DirWriter
+211 error code EPERM
+212 error errno 50
+213 error stack Error: EPERM, mkdir 'C:\Program Files\nodejs\node_modules\browser-sync'
+214 error fstream_stack C:\Users\dricardo1\AppData\Roaming\npm\node_modules\npm\node_modules\fstream\lib\dir-writer.js:36:23
+214 error fstream_stack C:\Users\dricardo1\AppData\Roaming\npm\node_modules\npm\node_modules\mkdirp\index.js:37:53
+214 error fstream_stack Object.oncomplete (fs.js:108:15)
+215 verbose exit [ 50, true ]
