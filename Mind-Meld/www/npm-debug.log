@@ -1,0 +1,306 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   'C:\\Users\\dricardo1\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'plugman' ]
+2 info using npm@1.3.26
+3 info using node@v0.10.35
+4 verbose cache add [ 'plugman', null ]
+5 verbose cache add name=undefined spec="plugman" args=["plugman",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'plugman',
+6 verbose parsed url   path: 'plugman',
+6 verbose parsed url   href: 'plugman' }
+7 silly lockFile 3c17847d-plugman plugman
+8 verbose lock plugman C:\Users\dricardo1\AppData\Roaming\npm-cache\3c17847d-plugman.lock
+9 silly lockFile 3c17847d-plugman plugman
+10 silly lockFile 3c17847d-plugman plugman
+11 verbose addNamed [ 'plugman', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 9ad59204-plugman plugman@
+14 verbose lock plugman@ C:\Users\dricardo1\AppData\Roaming\npm-cache\9ad59204-plugman.lock
+15 silly addNameRange { name: 'plugman', range: '*', hasData: false }
+16 verbose url raw plugman
+17 verbose url resolving [ 'https://registry.npmjs.org/', './plugman' ]
+18 verbose url resolved https://registry.npmjs.org/plugman
+19 info trying registry request attempt 1 at 21:15:49
+20 http GET https://registry.npmjs.org/plugman
+21 http 200 https://registry.npmjs.org/plugman
+22 silly registry.get cb [ 200,
+22 silly registry.get   { date: 'Tue, 10 Feb 2015 02:15:48 GMT',
+22 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 silly registry.get     etag: '"3JE1MOZ2FJ85MH1GBI3BG4W9T"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'cache-control': 'max-age=60',
+22 silly registry.get     'content-length': '137371',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '0',
+22 silly registry.get     'x-served-by': 'cache-iad2137-IAD',
+22 silly registry.get     'x-cache': 'HIT',
+22 silly registry.get     'x-cache-hits': '1',
+22 silly registry.get     'x-timer': 'S1423534548.851836,VS0,VE54',
+22 silly registry.get     vary: 'Accept',
+22 silly registry.get     'keep-alive': 'timeout=10, max=50',
+22 silly registry.get     connection: 'Keep-Alive' } ]
+23 silly addNameRange number 2 { name: 'plugman', range: '*', hasData: true }
+24 silly addNameRange versions [ 'plugman',
+24 silly addNameRange   [ '0.5.6',
+24 silly addNameRange     '0.5.7',
+24 silly addNameRange     '0.5.8',
+24 silly addNameRange     '0.5.9',
+24 silly addNameRange     '0.6.0',
+24 silly addNameRange     '0.6.1',
+24 silly addNameRange     '0.6.2',
+24 silly addNameRange     '0.6.3',
+24 silly addNameRange     '0.7.0',
+24 silly addNameRange     '0.7.1',
+24 silly addNameRange     '0.7.2',
+24 silly addNameRange     '0.7.3',
+24 silly addNameRange     '0.7.4',
+24 silly addNameRange     '0.7.5',
+24 silly addNameRange     '0.7.6',
+24 silly addNameRange     '0.7.7',
+24 silly addNameRange     '0.7.8',
+24 silly addNameRange     '0.7.9',
+24 silly addNameRange     '0.7.10',
+24 silly addNameRange     '0.7.11',
+24 silly addNameRange     '0.7.12',
+24 silly addNameRange     '0.7.13',
+24 silly addNameRange     '0.7.14',
+24 silly addNameRange     '0.8.0',
+24 silly addNameRange     '0.8.1',
+24 silly addNameRange     '0.8.2',
+24 silly addNameRange     '0.9.0',
+24 silly addNameRange     '0.9.1',
+24 silly addNameRange     '0.9.2',
+24 silly addNameRange     '0.9.3',
+24 silly addNameRange     '0.9.4',
+24 silly addNameRange     '0.9.5',
+24 silly addNameRange     '0.9.6',
+24 silly addNameRange     '0.9.7',
+24 silly addNameRange     '0.9.8',
+24 silly addNameRange     '0.9.9',
+24 silly addNameRange     '0.9.10',
+24 silly addNameRange     '0.9.11',
+24 silly addNameRange     '0.9.20',
+24 silly addNameRange     '0.9.21',
+24 silly addNameRange     '0.9.22',
+24 silly addNameRange     '0.9.23',
+24 silly addNameRange     '0.10.0',
+24 silly addNameRange     '0.10.1',
+24 silly addNameRange     '0.11.0',
+24 silly addNameRange     '0.12.0',
+24 silly addNameRange     '0.13.0',
+24 silly addNameRange     '0.14.0',
+24 silly addNameRange     '0.15.0',
+24 silly addNameRange     '0.16.0',
+24 silly addNameRange     '0.17.0',
+24 silly addNameRange     '0.18.0',
+24 silly addNameRange     '0.19.0',
+24 silly addNameRange     '0.20.0',
+24 silly addNameRange     '0.20.1',
+24 silly addNameRange     '0.20.2',
+24 silly addNameRange     '0.21.0',
+24 silly addNameRange     '0.22.0',
+24 silly addNameRange     '0.22.1',
+24 silly addNameRange     '0.22.2',
+24 silly addNameRange     '0.22.4',
+24 silly addNameRange     '0.22.5',
+24 silly addNameRange     '0.22.6',
+24 silly addNameRange     '0.22.7',
+24 silly addNameRange     '0.22.8',
+24 silly addNameRange     '0.22.9',
+24 silly addNameRange     '0.22.10',
+24 silly addNameRange     '0.22.11',
+24 silly addNameRange     '0.22.12',
+24 silly addNameRange     '0.22.14',
+24 silly addNameRange     '0.22.15',
+24 silly addNameRange     '0.22.16',
+24 silly addNameRange     '0.22.17' ] ]
+25 verbose addNamed [ 'plugman', '0.22.16' ]
+26 verbose addNamed [ '0.22.16', '0.22.16' ]
+27 silly lockFile 777f1428-plugman-0-22-16 plugman@0.22.16
+28 verbose lock plugman@0.22.16 C:\Users\dricardo1\AppData\Roaming\npm-cache\777f1428-plugman-0-22-16.lock
+29 silly lockFile c96918b2--org-plugman-plugman-0-22-16-tgz https://registry.npmjs.org/plugman/-/plugman-0.22.16.tgz
+30 verbose lock https://registry.npmjs.org/plugman/-/plugman-0.22.16.tgz C:\Users\dricardo1\AppData\Roaming\npm-cache\c96918b2--org-plugman-plugman-0-22-16-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/plugman/-/plugman-0.22.16.tgz',
+31 verbose addRemoteTarball   '28c5eab0dddd7a6b6cbfe4869271bab7e2d04d48' ]
+32 info retry fetch attempt 1 at 21:15:50
+33 verbose fetch to= C:\Users\DRICAR~1\AppData\Local\Temp\npm-3460-RUmyFfvJ\1423534550318-0.28010479523800313\tmp.tgz
+34 http GET https://registry.npmjs.org/plugman/-/plugman-0.22.16.tgz
+35 http 200 https://registry.npmjs.org/plugman/-/plugman-0.22.16.tgz
+36 verbose tar unpack C:\Users\DRICAR~1\AppData\Local\Temp\npm-3460-RUmyFfvJ\1423534550318-0.28010479523800313\tmp.tgz
+37 silly lockFile b8ad88c8-0318-0-28010479523800313-package tar://C:\Users\DRICAR~1\AppData\Local\Temp\npm-3460-RUmyFfvJ\1423534550318-0.28010479523800313\package
+38 verbose lock tar://C:\Users\DRICAR~1\AppData\Local\Temp\npm-3460-RUmyFfvJ\1423534550318-0.28010479523800313\package C:\Users\dricardo1\AppData\Roaming\npm-cache\b8ad88c8-0318-0-28010479523800313-package.lock
+39 silly lockFile d9909947-0318-0-28010479523800313-tmp-tgz tar://C:\Users\DRICAR~1\AppData\Local\Temp\npm-3460-RUmyFfvJ\1423534550318-0.28010479523800313\tmp.tgz
+40 verbose lock tar://C:\Users\DRICAR~1\AppData\Local\Temp\npm-3460-RUmyFfvJ\1423534550318-0.28010479523800313\tmp.tgz C:\Users\dricardo1\AppData\Roaming\npm-cache\d9909947-0318-0-28010479523800313-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry .npmignore
+44 silly gunzTarPerm extractEntry README.md
+45 silly gunzTarPerm extractEntry LICENSE
+46 silly gunzTarPerm extractEntry config.js
+47 silly gunzTarPerm extractEntry main.js
+48 silly gunzTarPerm extractEntry plugman.js
+49 silly gunzTarPerm extractEntry src/help.js
+50 silly gunzTarPerm extractEntry doc/help.txt
+51 silly gunzTarPerm extractEntry NOTICE
+52 silly gunzTarPerm extractEntry CONTRIBUTING.md
+53 silly gunzTarPerm extractEntry .reviewboardrc
+54 silly gunzTarPerm extractEntry RELEASENOTES.md
+55 silly lockFile b8ad88c8-0318-0-28010479523800313-package tar://C:\Users\DRICAR~1\AppData\Local\Temp\npm-3460-RUmyFfvJ\1423534550318-0.28010479523800313\package
+56 silly lockFile b8ad88c8-0318-0-28010479523800313-package tar://C:\Users\DRICAR~1\AppData\Local\Temp\npm-3460-RUmyFfvJ\1423534550318-0.28010479523800313\package
+57 silly lockFile d9909947-0318-0-28010479523800313-tmp-tgz tar://C:\Users\DRICAR~1\AppData\Local\Temp\npm-3460-RUmyFfvJ\1423534550318-0.28010479523800313\tmp.tgz
+58 silly lockFile d9909947-0318-0-28010479523800313-tmp-tgz tar://C:\Users\DRICAR~1\AppData\Local\Temp\npm-3460-RUmyFfvJ\1423534550318-0.28010479523800313\tmp.tgz
+59 verbose tar pack [ 'C:\\Users\\dricardo1\\AppData\\Roaming\\npm-cache\\plugman\\0.22.16\\package.tgz',
+59 verbose tar pack   'C:\\Users\\DRICAR~1\\AppData\\Local\\Temp\\npm-3460-RUmyFfvJ\\1423534550318-0.28010479523800313\\package' ]
+60 verbose tarball C:\Users\dricardo1\AppData\Roaming\npm-cache\plugman\0.22.16\package.tgz
+61 verbose folder C:\Users\DRICAR~1\AppData\Local\Temp\npm-3460-RUmyFfvJ\1423534550318-0.28010479523800313\package
+62 silly lockFile b8ad88c8-0318-0-28010479523800313-package tar://C:\Users\DRICAR~1\AppData\Local\Temp\npm-3460-RUmyFfvJ\1423534550318-0.28010479523800313\package
+63 verbose lock tar://C:\Users\DRICAR~1\AppData\Local\Temp\npm-3460-RUmyFfvJ\1423534550318-0.28010479523800313\package C:\Users\dricardo1\AppData\Roaming\npm-cache\b8ad88c8-0318-0-28010479523800313-package.lock
+64 silly lockFile 59f63e89-ache-plugman-0-22-16-package-tgz tar://C:\Users\dricardo1\AppData\Roaming\npm-cache\plugman\0.22.16\package.tgz
+65 verbose lock tar://C:\Users\dricardo1\AppData\Roaming\npm-cache\plugman\0.22.16\package.tgz C:\Users\dricardo1\AppData\Roaming\npm-cache\59f63e89-ache-plugman-0-22-16-package-tgz.lock
+66 silly lockFile b8ad88c8-0318-0-28010479523800313-package tar://C:\Users\DRICAR~1\AppData\Local\Temp\npm-3460-RUmyFfvJ\1423534550318-0.28010479523800313\package
+67 silly lockFile b8ad88c8-0318-0-28010479523800313-package tar://C:\Users\DRICAR~1\AppData\Local\Temp\npm-3460-RUmyFfvJ\1423534550318-0.28010479523800313\package
+68 silly lockFile 59f63e89-ache-plugman-0-22-16-package-tgz tar://C:\Users\dricardo1\AppData\Roaming\npm-cache\plugman\0.22.16\package.tgz
+69 silly lockFile 59f63e89-ache-plugman-0-22-16-package-tgz tar://C:\Users\dricardo1\AppData\Roaming\npm-cache\plugman\0.22.16\package.tgz
+70 silly lockFile 0bba7f62-pm-cache-plugman-0-22-16-package C:\Users\dricardo1\AppData\Roaming\npm-cache\plugman\0.22.16\package
+71 verbose lock C:\Users\dricardo1\AppData\Roaming\npm-cache\plugman\0.22.16\package C:\Users\dricardo1\AppData\Roaming\npm-cache\0bba7f62-pm-cache-plugman-0-22-16-package.lock
+72 silly lockFile 0bba7f62-pm-cache-plugman-0-22-16-package C:\Users\dricardo1\AppData\Roaming\npm-cache\plugman\0.22.16\package
+73 silly lockFile 0bba7f62-pm-cache-plugman-0-22-16-package C:\Users\dricardo1\AppData\Roaming\npm-cache\plugman\0.22.16\package
+74 verbose tar unpack C:\Users\dricardo1\AppData\Roaming\npm-cache\plugman\0.22.16\package.tgz
+75 silly lockFile bcb44855-pm-cache-plugman-0-22-16-package tar://C:\Users\dricardo1\AppData\Roaming\npm-cache\plugman\0.22.16\package
+76 verbose lock tar://C:\Users\dricardo1\AppData\Roaming\npm-cache\plugman\0.22.16\package C:\Users\dricardo1\AppData\Roaming\npm-cache\bcb44855-pm-cache-plugman-0-22-16-package.lock
+77 silly lockFile 59f63e89-ache-plugman-0-22-16-package-tgz tar://C:\Users\dricardo1\AppData\Roaming\npm-cache\plugman\0.22.16\package.tgz
+78 verbose lock tar://C:\Users\dricardo1\AppData\Roaming\npm-cache\plugman\0.22.16\package.tgz C:\Users\dricardo1\AppData\Roaming\npm-cache\59f63e89-ache-plugman-0-22-16-package-tgz.lock
+79 silly gunzTarPerm modes [ '755', '644' ]
+80 silly gunzTarPerm extractEntry package.json
+81 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+82 silly gunzTarPerm extractEntry .npmignore
+83 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+84 silly gunzTarPerm extractEntry README.md
+85 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+86 silly gunzTarPerm extractEntry LICENSE
+87 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+88 silly gunzTarPerm extractEntry config.js
+89 silly gunzTarPerm modified mode [ 'config.js', 438, 420 ]
+90 silly gunzTarPerm extractEntry plugman.js
+91 silly gunzTarPerm modified mode [ 'plugman.js', 438, 420 ]
+92 silly gunzTarPerm extractEntry main.js
+93 silly gunzTarPerm modified mode [ 'main.js', 438, 420 ]
+94 silly gunzTarPerm extractEntry NOTICE
+95 silly gunzTarPerm modified mode [ 'NOTICE', 438, 420 ]
+96 silly gunzTarPerm extractEntry .reviewboardrc
+97 silly gunzTarPerm modified mode [ '.reviewboardrc', 438, 420 ]
+98 silly gunzTarPerm extractEntry doc/help.txt
+99 silly gunzTarPerm modified mode [ 'doc/help.txt', 438, 420 ]
+100 silly gunzTarPerm extractEntry CONTRIBUTING.md
+101 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 438, 420 ]
+102 silly gunzTarPerm extractEntry RELEASENOTES.md
+103 silly gunzTarPerm modified mode [ 'RELEASENOTES.md', 438, 420 ]
+104 silly gunzTarPerm extractEntry src/help.js
+105 silly gunzTarPerm modified mode [ 'src/help.js', 438, 420 ]
+106 silly lockFile bcb44855-pm-cache-plugman-0-22-16-package tar://C:\Users\dricardo1\AppData\Roaming\npm-cache\plugman\0.22.16\package
+107 silly lockFile bcb44855-pm-cache-plugman-0-22-16-package tar://C:\Users\dricardo1\AppData\Roaming\npm-cache\plugman\0.22.16\package
+108 silly lockFile 59f63e89-ache-plugman-0-22-16-package-tgz tar://C:\Users\dricardo1\AppData\Roaming\npm-cache\plugman\0.22.16\package.tgz
+109 silly lockFile 59f63e89-ache-plugman-0-22-16-package-tgz tar://C:\Users\dricardo1\AppData\Roaming\npm-cache\plugman\0.22.16\package.tgz
+110 verbose chmod C:\Users\dricardo1\AppData\Roaming\npm-cache\plugman\0.22.16\package.tgz 644
+111 silly chown skipping for windows C:\Users\dricardo1\AppData\Roaming\npm-cache\plugman\0.22.16\package.tgz
+112 silly lockFile c96918b2--org-plugman-plugman-0-22-16-tgz https://registry.npmjs.org/plugman/-/plugman-0.22.16.tgz
+113 silly lockFile c96918b2--org-plugman-plugman-0-22-16-tgz https://registry.npmjs.org/plugman/-/plugman-0.22.16.tgz
+114 silly lockFile 777f1428-plugman-0-22-16 plugman@0.22.16
+115 silly lockFile 777f1428-plugman-0-22-16 plugman@0.22.16
+116 silly lockFile 9ad59204-plugman plugman@
+117 silly lockFile 9ad59204-plugman plugman@
+118 silly resolved [ { author: { name: 'Andrew Lunny', email: 'alunny@gmail.com' },
+118 silly resolved     name: 'plugman',
+118 silly resolved     description: 'install/uninstall Cordova plugins',
+118 silly resolved     version: '0.22.16',
+118 silly resolved     repository:
+118 silly resolved      { type: 'git',
+118 silly resolved        url: 'git://git-wip-us.apache.org/repos/asf/cordova-plugman.git' },
+118 silly resolved     bugs:
+118 silly resolved      { url: 'https://issues.apache.org/jira/browse/CB',
+118 silly resolved        email: 'dev@cordova.apache.org' },
+118 silly resolved     main: 'plugman.js',
+118 silly resolved     engines: { node: '>=0.9.9' },
+118 silly resolved     engineStrict: true,
+118 silly resolved     dependencies:
+118 silly resolved      { 'cordova-lib': '4.1.2',
+118 silly resolved        nopt: '1.0.9',
+118 silly resolved        underscore: '1.7.0',
+118 silly resolved        q: '1.0.1',
+118 silly resolved        npm: '1.3.4',
+118 silly resolved        rc: '0.5.2' },
+118 silly resolved     devDependencies: { jshint: '2.5.8', 'jasmine-node': '1.14.5' },
+118 silly resolved     bin: { plugman: './main.js' },
+118 silly resolved     scripts:
+118 silly resolved      { test: 'npm run jasmine && npm run jshint',
+118 silly resolved        jshint: 'node node_modules/jshint/bin/jshint src',
+118 silly resolved        jasmine: 'jasmine-node --captureExceptions --color spec' },
+118 silly resolved     contributors:
+118 silly resolved      [ [Object],
+118 silly resolved        [Object],
+118 silly resolved        [Object],
+118 silly resolved        [Object],
+118 silly resolved        [Object],
+118 silly resolved        [Object],
+118 silly resolved        [Object],
+118 silly resolved        [Object],
+118 silly resolved        [Object],
+118 silly resolved        [Object],
+118 silly resolved        [Object] ],
+118 silly resolved     readme: '<!--\n#\n# Licensed to the Apache Software Foundation (ASF) under one\n# or more contributor license agreements.  See the NOTICE file\n# distributed with this work for additional information\n# regarding copyright ownership.  The ASF licenses this file\n# to you under the Apache License, Version 2.0 (the\n# "License"); you may not use this file except in compliance\n# with the License.  You may obtain a copy of the License at\n#\n# http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing,\n# software distributed under the License is distributed on an\n# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\n#  KIND, either express or implied.  See the License for the\n# specific language governing permissions and limitations\n# under the License.\n#\n-->\n\n# plugman\n\nA command line tool to install and uninstall plugins for use with [Apache Cordova](http://cordova.io) projects.\n\nThis document defines tool usage.\n\n## Requirements\n\nYou must have `git` on your PATH to be able to install plugins directly from remote git URLs.\n\n## Plugin Specification\n\n--&gt; [Available on docs.cordova.io](http://cordova.apache.org/docs/en/3.0.0/plugin_ref_spec.md) &lt;--\n\n## Quickstart\n\n    npm install -g plugman\n\n## Design Goals\n\n* Facilitate programmatic installation and manipulation of plugins\n* Detail the dependencies and components of individual plugins\n* Allow code reuse between different target platforms\n\n## Supported Platforms\n\n* Amazon Fire OS\n* Android\n* BlackBerry 10\n* iOS\n* Tizen\n* Windows Phone 8\n* Windows 8\n\n## Command Line Usage\nDisplay all available plugman commands:\n\n    plugman help\n\n### Plugin Management\n\nInstall a plugin into a Cordova project: \n\n    plugman install --platform <ios|amazon-fireos|android|blackberry10|wp8> --project <directory> --plugin <name|url|path> [--plugins_dir <directory>] [--www <directory>] [--variable <name>=<value> [--variable <name>=<value> ...]]\n\nUninstall a Plugin from a Cordova project:\n\n\tplugman uninstall --platform <ios|amazon-fireos|android|blackberry10|wp8> --project <directory> --plugin <id> [--www <directory>] [--plugins_dir <directory>]\n\nFor each command (install and uninstall), you must specify a platform and Cordova project location for that platform. You also must specify a plugin, with the different `--plugin` parameter forms being:\n\n  * `name`: The directory name where the plugin contents exist. This must be an existing directory under the `--plugins_dir` path (see below for more info) or a plugin in the Cordova registry.\n  * `url`: A URL starting with https:// or git://, pointing to a valid git repository that is clonable and contains a `plugin.xml` file. The contents of this repository would be copied into the `--plugins_dir`.\n  * `path`: A path to a directory containing a valid plugin which includes a `plugin.xml` file. This path\'s contents will be copied into the `--plugins_dir`.\n\nOther parameters:\n\n* `--plugins_dir` defaults to `<project>/cordova/plugins`, but can be any directory containing a subdirectory for each fetched plugin.\n* `--www` defaults to the project\'s `www` folder location, but can be any directory that is to be used as cordova project application web assets.\n* `--variable` allows to specify certain variables at install time, necessary for certain plugins requiring API keys or other custom, user-defined parameters. Please see the [plugin specification](plugin_spec.md) for more information.\n\n### Registry Search\n\nSearch the [Plugin registry](http://plugins.cordova.io) for plugin id\'s that match the given space separated list of keywords.\n\n    plugman search <plugin keywords>\n\n### Configuration Management:\n\nDisplay the current list of configuration settings:\n\n\tplugman config ls\n\nDisplay the current repository endpoint:\n\n    plugman config get registry\n\nSet the registry endpoint:\n\n    plugman config set registry <url-to-registry>\n\nYou should leave this set to http://registry.cordova.io, unless you want to use a third party plugin registry.\n\n## Node Module Usage\nThis section details how to consume Plugman as a node module and is only for Cordova tool authors and other hackers. You should not need to read this section if you are just using Plugman to manage a Cordova project.\n\n    node\n    > require(\'plugman\')\n    { install: [Function: installPlugin],\n      uninstall: [Function: uninstallPlugin],\n      fetch: [Function: fetchPlugin],\n      search: [Function: search],\n      publish: [Function: publish],\n      unpublish: [Function: unpublish],\n      adduser: [Function: adduser],\n      prepare: [Function: handlePrepare],\n      create: [Function: create],\n      platform: [Function: platform] }\n\n### `install` method\n\n    module.exports = function installPlugin(platform, project_dir, id, plugins_dir, subdir, cli_variables, www_dir, callback) {\n\nInstalls a plugin into a specified cordova project of a specified platform.\n\n * `platform`: one of `amazon-fireos`, `android`, `ios`, `blackberry10`, or `wp8`\n * `project_dir`: path to an instance of the above specified platform\'s cordova project\n * `id`: a string representing the `id` of the plugin, a path to a cordova plugin with a valid `plugin.xml` file, or an `https://` or `git://` url to a git repository of a valid cordova plugin or a plugin published to the Cordova registry\n * `plugins_dir`: path to directory where plugins will be stored, defaults to `<project_dir>/cordova/plugins`\n * `subdir`: subdirectory within the plugin directory to consider as plugin directory root, defaults to `.`\n * `cli_variables`: an object mapping cordova plugin specification variable names (see [plugin specification](plugin_spec.md)) to values\n * `www_dir`: path to directory where web assets are to be copied to, defaults to the specified project directory\'s `www` dir (dependent on platform)\n * `callback`: callback to invoke once complete. If specified, will pass in an error object as a first parameter if the action failed. If not and an error occurs, `plugman` will throw the error\n\n### `uninstall` method\n\n    module.exports = function uninstallPlugin(platform, project_dir, id, plugins_dir, cli_variables, www_dir, callback) {\n\nUninstalls a previously-installed cordova plugin from a specified cordova project of a specified platform.\n\n * `platform`: one of `amazon-fireos`, `android`, `ios`, `blackberry10`, or `wp8`\n * `project_dir`: path to an instance of the above specified platform\'s cordova project\n * `id`: a string representing the `id` of the plugin\n * `plugins_dir`: path to directory where plugins are stored, defaults to `<project_dir>/cordova/plugins`\n * `subdir`: subdirectory within the plugin directory to consider as plugin directory root, defaults to `.`\n * `cli_variables`: an object mapping cordova plugin specification variable names (see [plugin specification](plugin_spec.md)) to values\n * `www_dir`: path to directory where web assets are to be copied to, defaults to the specified project directory\'s `www` dir (dependent on platform)\n * `callback`: callback to invoke once complete. If specified, will pass in an error object as a first parameter if the action failed. If not and an error occurs, `plugman` will throw the error\n\n### `fetch` method\n\nCopies a cordova plugin into a single location that plugman uses to track which plugins are installed into a project.\n\n    module.exports = function fetchPlugin(plugin_dir, plugins_dir, link, subdir, git_ref, callback) {\n\n * `plugin_dir`: path, URL to a plugin directory/repository or name of a plugin published to the Cordova registry.\n * `plugins_dir`: path housing all plugins used in this project\n * `link`: if `plugin_dir` points to a local path, will create a symbolic link to that folder instead of copying into `plugins_dir`, defaults to `false`\n * `subdir`: subdirectory within the plugin directory to consider as plugin directory root, defaults to `.`\n * `gitref`: if `plugin_dir` points to a URL, this value will be used to pass into `git checkout` after the repository is cloned, defaults to `HEAD`\n * `callback`: callback to invoke once complete. If specified, will pass in an error object as a first parameter if the action failed. If not and an error occurs, `plugman` will throw the error\n\n### `prepare` method\n\nFinalizes plugin installation by making configuration file changes and setting up a JavaScript loader for js-module support.\n\n    module.exports = function handlePrepare(project_dir, platform, plugins_dir) {\n\n * `project_dir`: path to an instance of the above specified platform\'s cordova project\n * `platform`: one of `amazon-fireos`, `android`, `ios`, `blackberry10`, or `wp8`\n * `plugins_dir`: path housing all plugins used in this project\n\n## Registry related actions\n\n### `adduser` method\n\nAdds a user account to the registry. Function takes no arguments other than a an optional callback\n\n    module.exports = function(callback) {\n\n### `publish` method\n\nPublishes plugins to the registry. `plugin_paths` is an array of plugin paths to publish to the registry.\n\n    module.exports = function(plugin_paths, callback) {\n\n### `unpublish` method\n\nunpublishes plugins from the registry. Can unpublish a version by specifying `plugin@version` or the whole plugin by just specifying `plugin`. `plugins` is an array of `plugin[@version]` elements.\n\n    module.exports = function(plugins, callback) {\n\n### `search` method\n\nSearches plugins in the registry. `search_opts` is an array of keywords\n\n    module.exports = function(search_opts, callback) {\n\n### `config` method\n\nConfigures registry settings. `params` is an array that describes the action\n    /*\n    * var params = [\'get\', \'registry\'];\n    * var params = [\'set\', \'registry\', \'http://registry.cordova.io\'];\n    * module.exports = function(params, callback) {\n    */\n\n## Create plugin related actions\n\n### `create` method\n\nCreates basic scaffolding for a new plugin\n\n  module.exports = function create( name, id, version, pluginPath, options, callback ) {...}\n\n* `name` : a name for the plugin\n* `id` : an id for the plugin\n* `version` : a version for the plugin\n* `pluginPath` : a path to create the plugin in\n* `options` : an array of options\n* `callback` : callback to invoke once complete. If specified, will pass in an error object as a first parameter if the action failed. If not and an error occurs, `plugman` will throw the error\n\n### `platform` method\n\nAdd/Remove a platform from a newly created plugin\n\n  module.exports = function platform( { operation: operation, platform_name: cli_opts.platform_name } );\n\n* `operation` : "add or remove"\n* `platform_name` : ios, android\n\n## Example Plugins\n\n- Google has a [bunch of plugins](https://github.com/MobileChromeApps/chrome-cordova/tree/master/plugins) which are maintained actively by a contributor to plugman\n- Adobe maintains plugins for its Build cloud service, which are open sourced and [available on GitHub](https://github.com/phonegap-build)\n- BlackBerry has a [bunch of plugins](https://github.com/blackberry/cordova-blackberry/tree/master/blackberry10/plugins) offering deep platform integration\n- Core and 3rd party plugins can be found on the [Cordova Registry](http://plugins.cordova.io).\n\n## Development\n\nBasic installation:\n\n    git clone https://git-wip-us.apache.org/repos/asf/cordova-plugman.git\n    cd cordova-plugman\n    npm install -g\n\nLinking the global executable to the git repo:\n\n    git clone https://git-wip-us.apache.org/repos/asf/cordova-plugman.git\n    cd cordova-plugman\n    npm install\n    sudo npm link\n\n### Running Tests\n\n    npm test\n\n## Plugin Directory Structure\n\nA plugin is typically a combination of some web/www code, and some native code.\nHowever, plugins may have only one of these things - a plugin could be a single\nJavaScript file, or some native code with no corresponding JavaScript.\n\nHere is a sample plugin named foo with android and ios platforms support, and 2 www assets.\n\n```\nfoo-plugin/\n|- plugin.xml     # xml-based manifest\n|- src/           # native source for each platform\n|  |- android/\n|  |  `- Foo.java\n|  `- ios/\n|     |- CDVFoo.h\n|     `- CDVFoo.m\n|- README.md\n`- www/\n   |- foo.js\n   `- foo.png\n```\n\nThis structure is suggested, but not required.\n\n## Contributors\n\nSee the [package.json](package.json) file for attribution notes.\n\n## License\n\nApache License 2.0\n',
+118 silly resolved     readmeFilename: 'README.md',
+118 silly resolved     _id: 'plugman@0.22.16',
+118 silly resolved     dist: { shasum: '0080f247d73612ceca153d0cc2c0e7768fd4069c' },
+118 silly resolved     _from: 'plugman@',
+118 silly resolved     _resolved: 'https://registry.npmjs.org/plugman/-/plugman-0.22.16.tgz' } ]
+119 info install plugman@0.22.16 into C:\Program Files\nodejs
+120 info installOne plugman@0.22.16
+121 info C:\Program Files\nodejs\node_modules\plugman unbuild
+122 verbose tar unpack C:\Users\dricardo1\AppData\Roaming\npm-cache\plugman\0.22.16\package.tgz
+123 silly lockFile 529f0fef-iles-nodejs-node-modules-plugman tar://C:\Program Files\nodejs\node_modules\plugman
+124 verbose lock tar://C:\Program Files\nodejs\node_modules\plugman C:\Users\dricardo1\AppData\Roaming\npm-cache\529f0fef-iles-nodejs-node-modules-plugman.lock
+125 silly lockFile 59f63e89-ache-plugman-0-22-16-package-tgz tar://C:\Users\dricardo1\AppData\Roaming\npm-cache\plugman\0.22.16\package.tgz
+126 verbose lock tar://C:\Users\dricardo1\AppData\Roaming\npm-cache\plugman\0.22.16\package.tgz C:\Users\dricardo1\AppData\Roaming\npm-cache\59f63e89-ache-plugman-0-22-16-package-tgz.lock
+127 silly gunzTarPerm modes [ '755', '644' ]
+128 error Error: EPERM, mkdir 'C:\Program Files\nodejs\node_modules\plugman'
+128 error  { [Error: EPERM, mkdir 'C:\Program Files\nodejs\node_modules\plugman']
+128 error   errno: 50,
+128 error   code: 'EPERM',
+128 error   path: 'C:\\Program Files\\nodejs\\node_modules\\plugman',
+128 error   fstream_type: 'Directory',
+128 error   fstream_path: 'C:\\Program Files\\nodejs\\node_modules\\plugman',
+128 error   fstream_class: 'DirWriter',
+128 error   fstream_stack:
+128 error    [ 'C:\\Users\\dricardo1\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\fstream\\lib\\dir-writer.js:36:23',
+128 error      'C:\\Users\\dricardo1\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\mkdirp\\index.js:37:53',
+128 error      'Object.oncomplete (fs.js:108:15)' ] }
+129 error Please try running this command again as root/Administrator.
+130 error System Windows_NT 6.2.9200
+131 error command "node" "C:\\Users\\dricardo1\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "plugman"
+132 error cwd C:\Users\dricardo1\Documents\GitHub\mm-jqmobile\Mind-Meld\www
+133 error node -v v0.10.35
+134 error npm -v 1.3.26
+135 error path C:\Program Files\nodejs\node_modules\plugman
+136 error fstream_path C:\Program Files\nodejs\node_modules\plugman
+137 error fstream_type Directory
+138 error fstream_class DirWriter
+139 error code EPERM
+140 error errno 50
+141 error stack Error: EPERM, mkdir 'C:\Program Files\nodejs\node_modules\plugman'
+142 error fstream_stack C:\Users\dricardo1\AppData\Roaming\npm\node_modules\npm\node_modules\fstream\lib\dir-writer.js:36:23
+142 error fstream_stack C:\Users\dricardo1\AppData\Roaming\npm\node_modules\npm\node_modules\mkdirp\index.js:37:53
+142 error fstream_stack Object.oncomplete (fs.js:108:15)
+143 verbose exit [ 50, true ]
